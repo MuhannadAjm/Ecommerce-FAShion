@@ -1068,3 +1068,33 @@
             </div>
         </div>
         <!-- search bottom-->
+
+        <div class="overlay"></div>
+
+
+    </div>
+     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js"></script>
+     <script src="script.js"></script> <!-- -->
+     <script>
+         const FtoShow = '.filter';
+         const Fpopup = document.querySelector(FtoShow);
+         const Ftrigger = document.querySelector('.filter-trigger');
+ 
+         Ftrigger.addEventListener('click', () => {
+             setTimeout(() => {
+                 if(!Fpopup.classList.contains('show')) {
+                     Fpopup.classList.add('show')
+                 }
+             }, 250 )
+         })
+         
+         //auto close by click iutside .filter
+         document.addEventListener('click', (e) => {
+             const isClosest = e.target.closest(FtoShow);
+             if(!isClosest && Fpopup.classList.contains('show')) {
+                 Fpopup.classList.remove('show')
+             }
+         })
+     </script>
+ </body>

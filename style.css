@@ -2094,4 +2094,37 @@ form.search button:hover {
                 background-repeat: no-repeat;
                 background-size: auto;
             }
-          
+            /* showing the first sub menu */
+        
+        
+        
+            .dpt-menu .beauty ul{
+                background-image: url(assets/menu/menu_bg1.jpg);
+            }
+            .dpt-menu .electric ul{
+                background-image: url(assets/menu/menu_bg2.jpg);
+            }   
+             .dpt-menu .fashion ul{
+                background-image: url(assets/menu/menu_bg3.jpg);
+            }  
+              .dpt-menu .homekit .mega{
+                background-image: url(assets/menu/menu_bg4.jpg);
+            }
+            /*somthing missing in the  background: linear-gradient(90deg,rgba(225,225,225,1) 0%, rgba(225,225));*/
+            .dpt-menu .has-child > :where(ul, .mega)::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(90,deg rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+            }
+            .dpt-menu .mega {/**/
+                width: auto;
+                min-width: var(--percent100);
+            }
+            .dpt-menu .has-child:hover .mega{
+                display: flex;
+            }
+            

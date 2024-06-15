@@ -969,3 +969,91 @@ form.search button:hover {
     
     
         
+    /* ---------------------
+    * 05.BANNER
+    *-----------------------*/
+    
+    .banners .item{
+        position: relative;
+        background-color: var(--wihte-color);
+        border: 1px solid var(--border-color);
+    }
+    .banner .image {
+        text-align: right;
+    }
+    .banner .get-gray{
+        background-color: var(--border-color);
+    }
+    .banner :where(.text-content, .over-link){
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: var(--percent100);
+        height: var(--percent100);
+    }
+    .banner .text-content{
+        padding: 1.5em 2.5em;
+    }
+    .banner h3 {
+        font-size: calc(1em + 0.5vw);
+        font-weight: var(--fw3);
+    }
+    .banner h3 span {
+        font-size: 80%;
+    }
+    
+    .banner .primary-button {
+        z-index: 3;
+    }
+    .banners .product-categories .item {
+        display: flex;
+        padding: 1.5em;
+    }
+    .banners .product-categories .image {
+        max-width: 150px;
+    }
+    .mini-links ul {
+        font-size: var(--font-small);
+        color: var(--light-text-color);
+        margin-top: 1em;
+    }
+    .banners .second-links {
+        margin-top: 2em;
+    }
+    .mini-links li a:hover {
+        text-decoration: underline;
+    }
+    
+    /* ---------------------
+    * 5.FOOTER
+    *-----------------------*/
+    
+    
+        /* 05.FOOTER ---------------------
+        * a.News Letter
+        *-----------------------*/
+    .newsletter {
+        padding: 2.5em 0;
+        background-color: var(--dark-color);
+        color: var(--wihte-color);
+    }
+    .newsletter h3 {
+        font-size: 1.5em;
+    }
+    .newsletter p {
+        font-weight: var(--fw3);
+        color: var(--border-color);
+        margin: 0.5em 0 1.5em;
+    }
+    
+    .newsletter p strong {
+        color: var(--primary-color);
+    }
+    .newsletter form {
+        max-width: 500px;
+        width: var(--percent100);
+    }
+    
+    
+    
+    

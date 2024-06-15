@@ -1910,5 +1910,80 @@ form.search button:hover {
         }
         
         
+         
+        
+        /* ---------------------
+        * 15.RESPONSIVE
+        *-----------------------*/
+        
+        @media screen and (min-width: 481px) {
+            .products.main .item{
+                flex: 0 0 50%;
+            }
+            /*page single*/
+            .products.one .big-image {
+                margin-bottom: 2em;
+            }
+            .products.one .image-show {
+                height: 680px;
+            }
+            .products.one .thuumbnail-show {
+                height: 160px;
+            }
+        }
+        
+        
+        
+        @media screen and (min-width: 768px) {
+            .products .price .current {
+                font-size: 1.25em;
+            }
+            .products.mini, .banner .row,.widgets .row {
+            flex: 0 0 50%;
+            }
+            .products.main .item {
+                flex: 0 0 33.3333%;
+            }
+            .products.one .row {
+                flex:  0 0 50%;
+                width: 50px;
+            }
+            .products.one .is_sticky, 
+            .is_sticky{
+                position: sticky;
+                top: 2em;
+            }
+        
+        }
+        
+        
+        
+        
+        
+        
+        @media screen and (min-width: 992px) {
+            .container{
+                padding: 0 2em;
+            }
+            .desktop-hide{
+                display: none;
+            }
+            .mobile-hide {
+                display: block;
+            }
+            .logo a {
+                margin-right: 2em;
+            }
+            .header-nav {
+                padding: 0;
+                margin: 0;
+                border-bottom: 0;
+            }
+            .header-nav .right li > a {
+                margin-left: 1em;
+            }
+        
+       
+     
         
        

@@ -1986,4 +1986,79 @@ form.search button:hover {
        
      
         
-       
+            /* mega menu*/
+            nav .mega {
+                position: absolute;
+                width: var(--percent100);
+                height: auto;
+                top: auto;
+                left: 0;
+                right: 0;
+                padding: 2.5em;
+                line-height: 2em;
+                background-color: var(--light-bg-color);/*here again*/
+                box-shadow: rgb(0 0 0 / 20%) 0 30px 20px -30px;/*here again*/
+                z-index: 100;
+                display: none;
+        
+            }
+            nav li.has-child:hover .mega {
+                display: block;
+            }
+            nav .mega .wrapper {
+                display: flex;
+            }
+            nav .mega h4 {
+                font-size: 0.8em;
+                text-transform: uppercase;
+            }
+            nav .mega ul{
+                font-size: var(--font-small);
+            }
+            nav .mega .women-brands{
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 180px;
+            }
+            nav .mega .women-brands li {
+                min-width: 80px;
+            }
+            nav .mega .view-all {
+                margin-top: 1em;
+            }
+            nav .mega .products{
+                flex: 2;
+                padding: 0;
+                align-items: center;
+                position: relative;
+            }
+            nav .mega .products .row {
+                width: var(--percent100);
+            }
+            nav .mega .products .media {
+                height: 400px;
+            }
+        
+            nav .mega .products .text-content{
+                line-height: initial;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5em;
+                margin-top: 0.5em;
+                position: absolute;
+                bottom: 4em;
+                width: var(--percent100);
+            }
+            nav .mega .products .text-content h4 {
+                font-size: 2em;
+                font-weight: var(--fw8);
+                text-align: center;
+                color: var(--secondary-dark-color);
+            }
+            .header-main .right {
+                max-width: 600px;
+                margin-left: auto;
+            }
+        
+          

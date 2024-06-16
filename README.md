@@ -26,16 +26,5 @@
             <div class="image-count"></div>
         </div>
     </div>
-
-    <script>
-        // JavaScript to count images and display count
-        document.addEventListener("DOMContentLoaded", function() {
-            const imageContainers = document.querySelectorAll('.image-container');
-            imageContainers.forEach((container, index) => {
-                const imageCountElement = container.querySelector('.image-count');
-                imageCountElement.textContent = `Image ${index + 1}`;
-            });
-        });
-    </script>
 </body>
 </html>

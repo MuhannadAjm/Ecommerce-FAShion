@@ -1,34 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        /* Basic styling for the image container */
-        .image-container {
-            position: relative;
-            display: inline-block;
-            margin: 10px;
-        }
-
-        /* Styling for the image count badge */
-        .image-count {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: red;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 50%;
-            font-size: 1rem;
-            display: none; /* Hidden by default */
-        }
-
-        /* Mobile-specific styles */
-        @media (max-width: 600px) {
-            .image-count {
-                display: block; /* Show on mobile */
-            }
-        }
-    </style>
+ 
 </head>
 <body>
     <div class="image-wrapper">

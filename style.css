@@ -368,13 +368,13 @@ padding: 0 0.75em 0 0;
 }
 
 .fly-item {
-        position: absolute;
-        height: 16px;
-        font-size: var(--font-smaller);
-        padding: 3px;
-        text-align: center;
-        line-height: 10px;
-        color: var(--white-color);
+    position: absolute;
+    height: 16px;
+    font-size: var(--font-smaller);
+    padding: 3px;
+    text-align: center;
+    line-height: 10px;
+    color: var(--white-color);
 }
 nav .fly-item,
 .header-nav .mini-cart .price .fly-item {
@@ -393,11 +393,11 @@ nav .fly-item,
         position: relative;
 }
 .header-nav .right .fly-item {
-        top: 0;
-        right: 16px;    
-        width: 16px;
-        background-color: var(--secondary-dark-color);
-        border-radius: var(--percent50);
+    top: 0;
+    right: 16px;    
+    width: 16px;
+    background-color: var(--secondary-dark-color);
+    border-radius: var(--percent50);
 }
 .mega .flexcol {
         flex: 1;

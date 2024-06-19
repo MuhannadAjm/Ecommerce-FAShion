@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GG Site</title>
+    <title>page-category</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">  <!--remove 3.2.0-->
     <link
@@ -13,11 +13,8 @@
 </head>
 <body>
 
-    <div id="page" class="site page-home">
-
-         <!--start at 46:28  -->
-
-         <aside class="site-off desktop-hide">
+    <div id="page" class="site page-category">
+        <aside class="site-off desktop-hide">
             <div class="off-canvas">
                 <div class="canvas-head flexitem"> 
                     <div class="logo"><a href="/"><span class="circle"></span>.Store</a></div>
@@ -226,15 +223,15 @@
                                             </div>
                                         </div>
                                     </li>
-                                        <a href="page-offer.html">Page Offer
-                                        <div class="fly-item"><span>New!</span></div>
-                                        </a>
-                                    </li>
-                                    </li>
-                                    <a href="page-category.html">Category
+                                    <a href="page-offer.html">Page Offer
                                     <div class="fly-item"><span>New!</span></div>
                                     </a>
-                                     </li>
+                                </li>
+                                    </li>
+                                        <a href="page-category.html">Category
+                                            <div class="fly-item"><span>New!</span></div>
+                                        </a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -316,7 +313,7 @@
                                                 </div>
                                                 <div class="actions">
                                                     <a href="/cart.html" class="primary-button">Checkout</a>
-                                                    <a href="cart.html" class="secondary-button">View Cart</a>
+                                                    <a href="/cart.html" class="secondary-button">View Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -524,368 +521,30 @@
          <main>
 
 
-            <!--Here we will put the brands-->
-            <div class="brands">
-                <div class="container">
-                    <div class="wrapper flexitem">
-                        <div class="item">
-                            <a href="#">
-                                <img src="assets/brands/zara.png" alt=""> 
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assets/brands/samsung.png" alt=""> 
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assets/brands/oppo.png" alt=""> 
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assets/brands/asus.png" alt=""> 
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assets/brands/hurley.png" alt=""> 
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assets/brands/dng.png" alt=""> 
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Brands -->
-
-            <!-- Trending -->
-
-            <div class="trending">
+            <div class="single-cart">
                 <div class="container">
                     <div class="wrapper">
-                        <div class="sectop flexitem">
-                            <h2><span class="circle"></span><span>Trending Products</span></h2>
-                        </div>
-                        <div class="column">
-                            <div class="flexwrap1">
-                                <div class="row products big"> 
-                                     <div class="item">
-                                        <div class="offer">
-                                            <p>Offer Ends at</p>
-                                            <ul class="flexcenter">
-                                                <li>1</li>
-                                                <li>15</li>
-                                                <li>27</li>
-                                                <li>60</li>
-                                            </ul>
-                                        </div>
-                                        <div class="media">
-                                            <div class="image">
-                                                <a href="#">
-                                                    <img src="assets/products/apparel4.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>31%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(2,548)</span>
-                                            </div>
-                                            <h3 class="main-links"><a href="#">Happy Sailed Womens Summer Boho Floral</a></h3>
-                                            <div class="price">
-                                                <span class="current">$129.99</span>
-                                                <span class="normal mini-text">$189.98</span>
-                                            </div>
-                                            <div class="stock mini-text">
-                                                <div class="qty">
-                                                    <span>Stock: <strong class="qty-available">200</strong></span>
-                                                    <span>Sold: <strong class="qty-sold">3,459</strong></span>
-                                                </div>
-                                                <div class="bar">
-                                                    <div class="available"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div class="flexwrap1">
+                            <div class="item center styled">
+                                <h1>Login</h1>
+                                <form action="">
+                                    <p>
+                                        <label for="email">Email Address <span></span></label>
+                                        <input type="email" name="email" id="email" autocomplete="off" required
+                                            style="width: 300px;">
+                                    </p>
+                                    <p>
+                                        <label for="fname">Password<span></span></label>
+                                        <input type="text" id="fname" required style="width: 300px;">
+                                    </p>
+                                </form>
+                                <div class="primary-checkout">
+                                    <button class="create-button">Log In</button>
                                 </div>
-                                <div class="row products mini">
-                                    <div class="item">
-                                        <div class="media">
-                                            <div class="thumbnail object-cover">
-                                                <a href="#">
-                                                    <img src="assets/products/apparel3.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>32%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="main-links"><a href="#">Black Women's Coat Dress</a></h3>
-                                            
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(2,548)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span class="current">$129.99</span>
-                                                <span class="normal mini-text">$189.98</span>
-                                            </div>
-                                            <div class="mini-text">
-                                                <p>2975 sold</p>
-                                                <p>Free Shipping</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="item">
-                                        <div class="media">
-                                            <div class="thumbnail object-cover">
-                                                <a href="#">
-                                                    <img src="assets/products/apparel1.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>25%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="main-links"><a href="#">Under Armor Men's Tech</a></h3>
-                                            
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(1,955)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span class="current">$56.50</span>
-                                                <span class="normal mini-text">$75.50</span>
-                                            </div>
-                                            <div class="mini-text">
-                                                <p>2584 sold</p>
-                                                <p>Free Shipping</p>
-                                                <p class="stock-danger">Stock: 7 left!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="media">
-                                            <div class="thumbnail object-cover">
-                                                <a href="#">
-                                                    <img src="assets/products/home1.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>37%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="main-links"><a href="#">Vonanda Velet Sofa Couch, min Center</a></h3>
-                                            
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(1,559)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span class="current">$469.99</span>
-                                                <span class="normal mini-text">$755.99</span>
-                                            </div>
-                                            <div class="mini-text">
-                                                <p>2151 sold</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="media">
-                                            <div class="thumbnail object-cover">
-                                                <a href="#">
-                                                    <img src="assets/products/electronic3.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>20%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="main-links"><a href="#">Wireless HEadphones Over Ear, Bluetooth</a></h3>
-                                            
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(1,411)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span class="current">$99.98</span>
-                                                <span class="normal mini-text">$125.98</span>
-                                            </div>
-                                            <div class="mini-text">
-                                                <p>1843 sold</p>
-                                                <p>Free Shipping</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row products mini">                                 
-                                    <div class="item">
-                                        <div class="media">
-                                            <div class="thumbnail object-cover">
-                                                <a href="#">
-                                                    <img src="assets/products/shoe1.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>32%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="main-links"><a href="#">Men Slip On shoes Casual With Arch Support Insoles</a></h3>
-                                            
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(2,548)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span class="current">$129.99</span>
-                                                <span class="normal mini-text">$189.98</span>
-                                            </div>
-                                            <div class="mini-text">
-                                                <p>2975 sold</p>
-                                                <p>Free Shipping</p>
-                                            </div>
-                                        </div>
-                                    </div>                             
-                                    <div class="item">
-                                        <div class="media">
-                                            <div class="thumbnail object-cover">
-                                                <a href="#">
-                                                    <img src="assets/products/apparel2.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>32%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="main-links"><a href="#">Women's Lightweight Knit Hoodie Sweater Pullover</a></h3>
-                                            
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(2,548)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span class="current">$129.99</span>
-                                                <span class="normal mini-text">$189.98</span>
-                                            </div>
-                                            <div class="mini-text">
-                                                <p>2975 sold</p>
-                                                <p>Free Shipping</p>
-                                            </div>
-                                        </div>
-                                    </div>                                 
-                                    <div class="item">
-                                        <div class="media">
-                                            <div class="thumbnail object-cover">
-                                                <a href="#">
-                                                    <img src="assets/products/home2.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>44%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="main-links"><a href="#">Dimmable Ceiling Light Modren</a></h3>
-                                            
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(543)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span class="current">$279.99</span>
-                                                <span class="normal mini-text">$499.98</span>
-                                            </div>
-                                            <div class="mini-text">
-                                                <p>995 sold</p>
-                                            </div>
-                                        </div>
-                                    </div>                                 
-                                    <div class="item">
-                                        <div class="media">
-                                            <div class="thumbnail object-cover">
-                                                <a href="#">
-                                                    <img src="assets/products/home3.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>18%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="main-links"><a href="#">Modren Storge Cabinet With Door & ....</a></h3>
-                                            
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(335)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span class="current">$129.99</span>
-                                                <span class="normal mini-text">$159.99</span>
-                                            </div>
-                                            <div class="mini-text">
-                                                <p>758 sold</p>
-                                            </div>
-                                        </div>
+                                <button class="forgot-button">Forgot password?</button>
+                                <div class="create-account">
+                                    <div class="primary-checkout ">
+                                        <button class="create-button" onclick="redirectToSignup()">Create new account</button>
                                     </div>
                                 </div>
                             </div>
@@ -893,388 +552,12 @@
                     </div>
                 </div>
             </div>
-            <!--End Trending -->
 
-            <!-- Features -->
-            <div class="features">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="sectop flexitem">
-                            <h2><span class="circle"></span><span>Featured Products</span></h2>
-                            <div class="second-links">
-                                <a href="#" class="view-all">View all<i class="ri-arrow-right-line"></i></a>
-                            </div>
-                        </div>
-                        <div class="column">                           
-                            <div class="products main flexwrap1">
-                                <div class="item">
-                                    <div class="media">
-                                        <div class="thumbnail object-cover">
-                                            <a href="#">
-                                                <img src="assets/products/apparel1.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="hoverable">
-                                            <ul>
-                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="discount circle flexcenter"><span>25%</span></div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="rating">
-                                            <div class="stars"></div>
-                                            <span class="mini-text">(1,955)</span>
-                                        </div>
-                                        <h3 class="main-links"><a href="#">Under Armour Men's Tech</a></h3>
-                                        <div class="price">
-                                            <span class="current">$56.50</span>
-                                            <span class="normal mini-text">$75.50</span>
-                                        </div>
-                                    </div>
-                                </div> 
-                                <div class="item">
-                                    <div class="media">
-                                        <div class="thumbnail object-cover">
-                                            <a href="#">
-                                                <img src="assets/products/apparel2.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="hoverable">
-                                            <ul>
-                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="discount circle flexcenter"><span>17%</span></div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="rating">
-                                            <div class="stars"></div>
-                                            <span class="mini-text">(994)</span>
-                                        </div>
-                                        <h3 class="main-links"><a href="#">Women's Lightweight Knit Hoodie Sweater Pullover</a></h3>
-                                        <div class="price">
-                                            <span class="current">$37.50</span>
-                                            <span class="normal mini-text">$45.50</span>
-                                        </div>            
-                                        <!-- additional structrue-->                            
-                                        <div class="footer">
-                                            <ul class="mini-text">
-                                                <li>Poyster, Cotton</li>
-                                                <li>Pull On Closure<li>
-                                                <li>Fashion Personality</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="media">
-                                        <div class="thumbnail object-cover">
-                                            <a href="#">
-                                                <img src="assets/products/apparel3.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="hoverable">
-                                            <ul>
-                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="discount circle flexcenter"><span>31%</span></div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="rating">
-                                            <div class="stars"></div>
-                                            <span class="mini-text">(1,955)</span>
-                                        </div>
-                                        <h3 class="main-links"><a href="#">Happy Sailed Women's Summer Boho Floral</a></h3>
-                                        <div class="price">
-                                            <span class="current">$129.99</span>
-                                            <span class="normal mini-text">$189.98</span>
-                                        </div>
-
-                                        <div class="footer">
-                                            <ul class="mini-text">
-                                                <li>65% Polyster, 35% Cotton</li>
-                                                <li>Imported</li>
-                                                <li>Machine Wash</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="bg-hover"></div>
-                                </div>
-                                <div class="item">
-                                    <div class="media">
-                                        <div class="thumbnail object-cover">
-                                            <a href="#">
-                                                <img src="assets/products/apparel4.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="hoverable">
-                                            <ul>
-                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="discount circle flexcenter"><span>35%</span></div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="rating">
-                                            <div class="stars"></div>
-                                            <span class="mini-text">(10)</span>
-                                        </div>
-                                        <h3 class="main-links"><a href="#">Women's Summer Boho Floral</a></h3>
-                                        <div class="price">
-                                            <span class="current">$118.90</span>
-                                            <span class="normal mini-text">$189.90</span>
-                                        </div>                                        
-                                        <div class="footer">
-                                            <ul class="mini-text">
-                                                <li>Corduroy</li>
-                                                <li>Imported</li>
-                                                <li>Button Closure Closure</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="media">
-                                        <div class="thumbnail object-cover">
-                                            <a href="#">
-                                                <img src="assets/products/shoe1.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="hoverable">
-                                            <ul>
-                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="discount circle flexcenter"><span>32%</span></div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="rating">
-                                            <div class="stars"></div>
-                                            <span class="mini-text">(2,251)</span>
-                                        </div>
-                                        <h3 class="main-links"><a href="#">Men Slip On shoes Casual With Arch Support Insoles</a></h3>
-                                        <div class="price">
-                                            <span class="current">$80.90</span>
-                                            <span class="normal mini-text">$119.00</span>
-                                        </div>
-                                        <div class="footer">
-                                            <ul class="mini-text">
-                                                <li>Made in USA</li>
-                                                <li>Rubber sole</li>
-                                                <li>Durable leather overlays</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="media">
-                                        <div class="thumbnail object-cover">
-                                            <a href="#">
-                                                <img src="assets/products/shoe2.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="hoverable">
-                                            <ul>
-                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="discount circle flexcenter"><span>30%</span></div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="rating">
-                                            <div class="stars"></div>
-                                            <span class="mini-text">(1,237)</span>
-                                        </div>
-                                        <h3 class="main-links"><a href="#">Skechers Women's Go Joy Walking Shoe Sneaker</a></h3>
-                                        <div class="price">
-                                            <span class="current">$45.95</span>
-                                            <span class="normal mini-text">$64.95</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="media">
-                                        <div class="thumbnail object-cover">
-                                            <a href="#">
-                                                <img src="assets/products/shoe3.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="hoverable">
-                                            <ul>
-                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="discount circle flexcenter"><span>25%</span></div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="rating">
-                                            <div class="stars"></div>
-                                            <span class="mini-text">(106)</span>
-                                        </div>
-                                        <h3 class="main-links"><a href="#">Walking Shoe Sneaker Women's</a></h3>
-                                        <div class="price">
-                                            <span class="current">$139.99</span>
-                                            <span class="normal mini-text">$189.98</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="media">
-                                        <div class="thumbnail object-cover">
-                                            <a href="#">
-                                                <img src="assets/products/shoe4.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="hoverable">
-                                            <ul>
-                                                <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="discount circle flexcenter"><span>24%</span></div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="rating">
-                                            <div class="stars"></div>
-                                            <span class="mini-text">(25)</span>
-                                        </div>
-                                        <h3 class="main-links"><a href="#">Women's Summet Tasco Shoe</a></h3>
-                                        <div class="price">
-                                            <span class="current">$104.90</span>
-                                            <span class="normal mini-text">$189.90</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Features -->
-            
-            <!-- featured Product -->
-            <div class="banners">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="column">
-                            <div class="banner flexwrap1">
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assets/banner/banner1.jpg" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Brutal Sale!</h4>
-                                            <h3><span>Get the deal in here</span><br>Living Room Chair</h3>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                        <a href="#" class="over-link"></a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="item get-gray">
-                                        <div class="image">
-                                            <img src="assets/banner/banner2.jpg" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Brutal Sale!</h4>
-                                            <h3><span>Discount everyday</span><br>Office Outfit</h3>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                        <a href="#" class="over-link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- banners -->
-
-                            <div class="product-categories flexwrap1">
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assets/banner/procat1.jpg" alt="">
-                                        </div>
-                                        <div class="content mini-links">
-                                            <h4>Beauty</h4>
-                                            <ul class="flexcol">
-                                                <li><a href="#">Makeup</a></li>
-                                                <li><a href="#">Skin Care</a></li>
-                                                <li><a href="#">Hair Care</a></li>
-                                                <li><a href="#">Fragrance</a></li>
-                                                <li><a href="#">Foot & Hand Care</a></li>
-                                            </ul>
-                                            <div class="second-links">
-                                                <a href="#" class="view-all">View all<i class="ri-arrow-right-line"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assets/banner/procat2.jpg" alt="">
-                                        </div>
-                                        <div class="content mini-links">
-                                            <h4>Gatdets</h4>
-                                            <ul class="flexcol">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Cell Phones</a></li>
-                                                <li><a href="#">Computers</a></li>
-                                                <li><a href="#">GPS & Navigation</a></li>
-                                                <li><a href="#">Headphones</a></li>
-                                            </ul>
-                                            <div class="second-links">
-                                                <a href="#" class="view-all">View all<i class="ri-arrow-right-line"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                                                                
-                            <div class="row">
-                                <div class="item">
-                                    <div class="image">
-                                        <img src="assets/banner/procat3.jpg" alt="">
-                                    </div>
-                                    <div class="content mini-links">
-                                        <h4>Home Decor</h4>
-                                        <ul class="flexcol">
-                                            <li><a href="#">Kitchen</a></li>
-                                            <li><a href="#">Dining Room</a></li>
-                                            <li><a href="#">Pantry</a></li>
-                                            <li><a href="#">Great Room</a></li>
-                                            <li><a href="#">Breakfast</a></li>
-                                        </ul>
-                                        <div class="second-links">
-                                            <a href="#" class="view-all">View all<i class="ri-arrow-right-line"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End featured Product -->
-         </main>
+        </main>
         <!--End Main Section-->
 
         <!--Footer-->
+
         <footer>
             <div class="newsletter">
                 <div class="container">
@@ -1358,6 +641,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="footer-info">
                 <div class="container">
                     <div class="wrapper">
@@ -1382,6 +666,7 @@
         </footer>
 
         <!--End Footer-->
+
         <div class="menu-bottom desktop-hide">
             <div class="container">
                 <div class="wrapper">
@@ -1412,7 +697,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#0">
+                                <a href="#0" class="cart-trigger">
                                     <i class="ri-shopping-cart-line"></i>
                                     <span>Cart</span>
                                     <div class="fly-item">
@@ -1443,8 +728,32 @@
         <!-- search bottom-->
 
         <div class="overlay"></div>
+
+
    </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js"></script>
     <script src="script.js"></script> <!-- -->
+    <script>
+        const FtoShow = '.filter';
+        const Fpopup = document.querySelector(FtoShow);
+        const Ftrigger = document.querySelector('.filter-trigger');
+
+        Ftrigger.addEventListener('click', () => {
+            setTimeout(() => {
+                if(!Fpopup.classList.contains('show')) {
+                    Fpopup.classList.add('show')
+                }
+            }, 250 )
+        })
+        
+        //auto close by click iutside .filter
+        document.addEventListener('click', (e) => {
+            const isClosest = e.target.closest(FtoShow);
+            if(!isClosest && Fpopup.classList.contains('show')) {
+                Fpopup.classList.remove('show')
+            }
+        })
+    </script>
 </body>
 </html>

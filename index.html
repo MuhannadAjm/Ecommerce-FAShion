@@ -6,23 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GG Site</title>
+    <link rel="icon" type="image/png" href="gg_Logo1_NEW.png" sizes="16x16">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> <!--remove 3.2.0-->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
-<div id="page" class="site page-home">
-    <aside class="site-off desktop-hide">
-        <div class="off-canvas">
-            <div class="canvas-head flexitem">
-                <div class="logo"><a href="#"><span class="circle"></span>.Store</a></div>
-                <a href="#" class="t-close flexcenter"><i class="ri-close-line"></i></a>
+<body>
+
+    <div id="page" class="site page-home">
+
+        <!--start at 46:28  -->
+
+        <aside class="site-off desktop-hide">
+            <div class="off-canvas">
+                <div class="canvas-head flexitem">
+                    <div class="logo"><a href="#"><span class="circle"></span>.Store</a></div>
+                    <a href="#" class="t-close flexcenter"><i class="ri-close-line"></i></a>
+                </div>
+                <div class="departments"></div>
+                <nav></nav>
+                <div class="thetop-nav"></div>
             </div>
-            <div class="departments"></div>
-            <nav></nav>
-            <div class="thetop-nav"></div>
-        </div>
-    </aside>
+        </aside>
+
         <!-- Header Section-->
         <header>
             <div class="header-top mobile-hide">
@@ -63,14 +70,17 @@
                     </div>
                 </div>
             </div>
-
             <!-- Header-top -->
             <div class="header-nav">
                 <div class="container">
                     <div class="wrapper flexitem">
                         <a href="#" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
                         <div class="left flexitem">
-                            <div class="logo"><a href="/"><span class="circle"></span>.Store</a></div>
+                            <div class="logo">
+                                <img src="gg_Logo1_NEW.png" alt="logo">
+                                <a href="index.html">                                    
+                                </a>
+                            </div>
                             <nav class="mobile-hide">
                                 <ul class="flexitem second-links">
                                     <li><a href="index.html">Home</a></li>
@@ -88,7 +98,7 @@
                                                             <ul>
                                                                 <li><a href="#">Dresses</a></li>
                                                                 <li><a href="#">Tops & Tees</a></li>
-                                                                <li><a href="#">Jackets & Coats</a></li>
+                                                                <li><a href="#">Jackets & Coats</a></li><!--complete this !!-->
                                                                 <li><a href="#">Pants & Capris</a></li>
                                                                 <li><a href="#">Sweaters</a></li>
                                                                 <li><a href="#">Costumes</a></li>
@@ -116,7 +126,7 @@
                                                     <div class="flexcol">
                                                         <div class="row">
                                                             <h4>Beauty</h4>
-                                                            <ul class="women-brands">
+                                                            <ul>
                                                                 <li><a href="#">Bath Accessories</a></li>
                                                                 <li><a href="#">Makeup & Cosmetics</a></li>
                                                                 <li><a href="#">Skin Care</a></li>
@@ -131,20 +141,39 @@
                                                                     class="ri-arrow-right-line"></i></a>
                                                         </div>
                                                     </div>
+                                                    <div class="flexcol">
+                                                        <div class="row">
+                                                            <h4>Top Brands</h4>
+                                                            <ul class="women-brands">
+                                                                <li><a href="#">Nike</a></li>
+                                                                <li><a href="#">Louis Vuitton</a></li>
+                                                                <li><a href="#">Hermes</a></li>
+                                                                <li><a href="#">Gucci</a></li>
+                                                                <li><a href="#">Zalando</a></li>
+                                                                <li><a href="#">Tiffany & co.</a></li>
+                                                                <li><a href="#">Zara</a></li>
+                                                                <li><a href="#">H&M</a></li>
+                                                                <li><a href="#">Cartier</a></li>
+                                                                <li><a href="#">Chanel</a></li>
+                                                                <li><a href="#">Hurley</a></li>
+                                                            </ul>
+                                                            <a href="#" class="view-all">View All Brands<i class="ri-arrow-right-line"></i></a>
+                                                        </div>
+                                                    </div>
                                                     <div class="flexcol products">
                                                         <div class="row">
                                                             <div class="media">
                                                                 <div class="thumbnail object-cover">
                                                                     <a href="#">
-                                                                        <img src="assets/products/apparel4.jpg"
-                                                                            alt="">
+                                                                        <img src="assets/products/apparel4.jpg" alt="" style="width:450px;height:600px;">
                                                                     </a>
                                                                 </div>
                                                             </div>
+                                                            <!-- 
                                                             <div class="text-content">
                                                                 <h4>Most Wanted!</h4>
                                                                 <a href="#" class="primary-button">Order Now</a>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -204,14 +233,14 @@
                                                             <div class="media">
                                                                 <div class="thumbnail object-cover">
                                                                     <a href="#">
-                                                                        <img src="assets/products/3DMark.png" alt="">
+                                                                        <img src="assets/products/Unity.png" alt="" style="width:500px;height:360px;">
                                                                     </a>
                                                                 </div>
-                                                            </div>
+                                                            </div> <!-- 
                                                             <div class="text-content">
                                                                 <h4>Most Wanted!</h4>
                                                                 <a href="#" class="primary-button">Order Now</a>
-                                                            </div>
+                                                            </div>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -239,7 +268,7 @@
                                         </div>
                                         <div class="icon-text">
                                             <div class="mini-text">Total</div>
-                                            <div class="cart-total">$440.87</div>
+                                            <div class="cart-total">$$250.00</div>
                                         </div>
                                     </a>
                                     <div class="mini-cart">
@@ -252,13 +281,13 @@
                                                     <li class="item">
                                                         <div class="thumbnail object-cover">
                                                             <a href="#"><img
-                                                                    src="assets/products/electronic3.jpg"
+                                                                    src="assets/products/Microsoft Windows 11 Home.png"
                                                                     alt=""></a>
                                                         </div>
                                                         <div class="item-content">
-                                                            <p><a href="#">Wireless HEadphones Over Ear, Bluetooth</a></p>
+                                                            <p><a href="#">Vonanda Velet Sofa Couch, min Center</a></p>
                                                             <span class="price">
-                                                                <span>$99.99</span>
+                                                                <span>$469.99</span>
                                                                 <span class="fly-item"><span>2x</span></span>
                                                             </span>
                                                         </div>
@@ -267,7 +296,22 @@
                                                     <li class="item">
                                                         <div class="thumbnail object-cover">
                                                             <a href="#"><img
-                                                                    src="assets/products/apparel2.jpg"
+                                                                    src="assets/products/Kaspersky Internet Security.png"
+                                                                    alt=""></a>
+                                                        </div>
+                                                        <div class="item-content">
+                                                            <p><a href="#">Wireless HEadphones Over Ear, Bluetooth</a></p>
+                                                            <span class="price">
+                                                                <span>$99.98</span>
+                                                                <span class="fly-item"><span>1x</span></span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="item-remove"><i class="ri-close-line"></i></a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="thumbnail object-cover">
+                                                            <a href="#"><img
+                                                                    src="assets/products/Kaspersky Internet Security.png"
                                                                     alt=""></a>
                                                         </div>
                                                         <div class="item-content">
@@ -282,28 +326,13 @@
                                                     <li class="item">
                                                         <div class="thumbnail object-cover">
                                                             <a href="#"><img
-                                                                    src="assets/products/shoe1.jpg"
+                                                                    src="assets/products/Steam Gift Card 50 EUR.png"
                                                                     alt=""></a>
                                                         </div>
                                                         <div class="item-content">
-                                                            <p><a href="#">Men Slip On shoes Casual With Arch Support Insoles</a></p>
+                                                            <p><a href="#">Under Armour Men's Tech</a></p>
                                                             <span class="price">
-                                                                <span>$80.90</span>
-                                                                <span class="fly-item"><span>1x</span></span>
-                                                            </span>
-                                                        </div>
-                                                        <a href="" class="item-remove"><i class="ri-close-line"></i></a>
-                                                    </li>
-                                                    <li class="item">
-                                                        <div class="thumbnail object-cover">
-                                                            <a href="#"><img
-                                                                    src="assets/products/apparel4.jpg"
-                                                                    alt=""></a>
-                                                        </div>
-                                                        <div class="item-content">
-                                                            <p><a href="#">Happy Sailed Womens Summer Boho Floral</a></p>
-                                                            <span class="price">
-                                                                <span>$129.99</span>
+                                                                <span>$56.50</span>
                                                                 <span class="fly-item"><span>1x</span></span>
                                                             </span>
                                                         </div>
@@ -314,7 +343,7 @@
                                             <div class="cart-footer">
                                                 <div class="subtotal">
                                                     <p>Subtotal</p>
-                                                    <p><strong>$440.87</strong></p>
+                                                    <p><strong>$250.00</strong></p>
                                                 </div>
                                                 <div class="actions">
                                                     <a href="/cart.html" class="primary-button">Checkout</a>
@@ -347,129 +376,181 @@
                                         <li class="has-child windows">
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-bear-smile-line"></i></div>
-                                                Beauty
+                                                Microsoft Windows
                                                 <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
                                             </a>
                                             <ul>
-                                                <li><a href="#">Makeup</a></li>
-                                                <li><a href="#">Skin Care</a></li>
-                                                <li><a href="#">Hair Care</a></li>
-                                                <li><a href="#">Fragrance</a></li>
-                                                <li><a href="#">Foot & Hand Care</a></li>
-                                                <li><a href="#">Tools & Accessories</a></li>
-                                                <li><a href="#">Shave & Hair Removal</a></li>
-                                                <li><a href="#">Personal Care</a></li>
+                                                <li><a href="#">Microsoft Windows 10 Pro</a></li>
+                                                <li><a href="#">Windows 10 OEM Home</a></li>
+                                                <li><a href="#">Windows 10 OEM Pro</a></li>
+                                                <li><a href="#">Microsoft Windows 11 Home</a></li>
+                                                <li><a href="#">Microsoft Windows 11 Pro</a></li>
+                                                <li><a href="#">Windows 11 OEM Home</a></li>
+                                                <li><a href="#">Windows 11 OEM Pro</a></li>
+                                                <li><a href="#">Windows 8.1 OEM Standard</a></li>
+                                                <li><a href="#">Windows 8.1 OEM Pro</a></li>
+                                                <li><a href="#">Windows 8.1 OEM </a></li>
                                             </ul>
                                         </li>
                                         <li class="has-child office"><!--again-->
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-bluetooth-connect-line"></i></div>
-                                                Electronic
+                                                Microsoft Office
                                                 <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
                                             </a>
                                             <ul>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Cell Phone</a></li>
-                                                <li><a href="#">Computers</a></li>
-                                                <li><a href="#">GPS & Navigation</a></li>
-                                                <li><a href="#">Headphones</a></li>
-                                                <li><a href="#">Home Audio</a></li>
-                                                <li><a href="#">Television</a></li>
-                                                <li><a href="#">Video Projectors</a></li>
-                                                <li><a href="#">Wearable Technology</a></li>
+                                                <li><a href="#">Professional Plus 2021</a></li>
+                                                <li><a href="#">Home & Business 2021</a></li>
+                                                <li><a href="#">365 Family</a></li>
+                                                <li><a href="#">365 Home</a></li>
+                                                <li><a href="#">Professional 2019 Plus</a></li>
+                                                <li><a href="#">Professional 2016 Plus</a></li>
+                                                <li><a href="#">Professional 2016</a></li>
+                                                <li><a href="#">Business 2019 </a></li>
+                                                <li><a href="#">Business 2016 Plus</a></li>
+                                                <li><a href="#">Professional Plus 2016</a></li>
                                             </ul>
                                         </li>
                                         <li class="has-child antivirus">
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-t-shirt-air-line"></i></div>
-                                                Women's Fashion
+                                                Antivirus
                                                 <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
                                             </a>
                                             <ul>
-                                                <li><a href="#">Clothing</a></li>
-                                                <li><a href="#">Shoes</a></li>
-                                                <li><a href="#">Jewelry</a></li>
-                                                <li><a href="#">Watches</a></li>
-                                                <li><a href="#">Watches</a></li>
-                                                <li><a href="#">Handbags</a></li>
-                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#">McAfee AntiVirus</a></li>
+                                                <li><a href="#">AVG AntiVirus Pro</a></li>
+                                                <li><a href="#">Avast Pro Antivirus</a></li>
+                                                <li><a href="#">Bitdefender Antivirus</a></li>
+                                                <li><a href="#">Bitdefender Antivirus Plus</a></li>
+                                                <li><a href="#">Norton AntiVirus Basic</a></li>
+                                                <li><a href="#">Kaspersky Internet Security</a></li>
+                                                <li><a href="#">Kaspersky Anti-Virus</a></li>
+                                                <li><a href="#">Kaspersky Total Security</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-shirt-line"></i></div>
-                                                Men's Fahsion
+                                                Programming
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-user-5-line"></i></div>
-                                                Girl's Fahsion
+                                                Web Development
                                             </a>
                                         </li>
 
                                         <li class="has-child gift-cards1">
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-home-8-line"></i></div>
-                                                Home & Kitchen
+                                                Social Gift Cards
                                                 <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
                                             </a>
                                             <div class="mega">
                                                 <div class="flexcol">
                                                     <div class="row">
-                                                        <h4><a href="#">Kitchen & Dining</a></h4>
+                                                        <h4><a href="#">Amazon</a></h4>
                                                         <ul>
-                                                            <li><a href="#">Kitchen</a></li>
-                                                            <li><a href="#">Dining Room</a></li>
-                                                            <li><a href="#">Pantry</a></li>
-                                                            <li><a href="#">Great Room</a></li>
-                                                            <li><a href="#">Breakfast Nook</a></li>
+                                                            <li><a href="#">Gift Card 40 EUR</a></li>
+                                                            <li><a href="#">Gift Card 100 EUR</a></li>
+                                                            <li><a href="#">Gift Card 25 USD</a></li>
+                                                            <li><a href="#">Gift Card 100 USD</a></li>
+                                                            <li><a href="#">Gift Card 20 GBP</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="row">
-                                                        <h4><a href="#">Living</a></h4>
+                                                        <h4><a href="#">Google Play</a></h4>
                                                         <ul>
-                                                            <li><a href="#">Living Room</a></li>
-                                                            <li><a href="#">Family Room</a></li>
-                                                            <li><a href="#">Sunroom</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="flexcol">
-                                                    <div class="row">
-                                                        <h4><a href="#">Bed & Bath</a></h4>
-                                                        <ul>
-                                                            <li><a href="#">Bathroom</a></li>
-                                                            <li><a href="#">Powder Room</a></li>
-                                                            <li><a href="#">Bedroom</a></li>
-                                                            <li><a href="#">Storge & Closet</a></li>
-                                                            <li><a href="#">Baby & Kids</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="row">
-                                                        <h4><a href="#">Utility</a></h4>
-                                                        <ul>
-                                                            <li><a href="#">Laundry</a></li>
-                                                            <li><a href="#">Garage</a></li>
-                                                            <li><a href="#">Mudroom</a></li>
+                                                            <li><a href="#">Gift Card 75 USD</a></li>
+                                                            <li><a href="#">Gift Card 100 TL</a></li>
+                                                            <li><a href="#">Gift Card 300 TL</a></li>
+                                                            <li><a href="#">Gift Card 500 TL</a></li>
+                                                            <li><a href="#">Gift Card 20 EUR</a></li>
+                                                            <li><a href="#">Gift Card 50 EUR</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="flexcol">
                                                     <div class="row">
-                                                        <h4><a href="#">Outdoor</a></h4>
+                                                        <h4><a href="#">iTunes</a></h4>
                                                         <ul>
-                                                            <li><a href="#">Landscape</a></li>
-                                                            <li><a href="#">Patio</a></li>
-                                                            <li><a href="#">Deck</a></li>
-                                                            <li><a href="#">Pool</a></li>
-                                                            <li><a href="#">Backyard</a></li>
-                                                            <li><a href="#">Porch</a></li>
-                                                            <li><a href="#">Exterior</a></li>
-                                                            <li><a href="#">Outdorrd Kitchen</a></li>
-                                                            <li><a href="#">Front Yard</a></li>
-                                                            <li><a href="#">Driveway</a></li>
-                                                            <li><a href="#">Poolhouse</a></li>
+                                                            <li><a href="#">Gift Card 10 GBP</a></li>
+                                                            <li><a href="#">Gift Card 50 GBP</a></li>
+                                                            <li><a href="#">Gift Card 20 EUR</a></li>
+                                                            <li><a href="#">Gift Card 70 EUR</a></li>
+                                                            <li><a href="#">Gift Card 25 USD</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                        </li>
+
+                                        <li class="has-child gift-cards">
+                                            <a href="#">
+                                                <div class="icon-large"><i class="ri-home-8-line"></i></div>
+                                                Gaming Gift Cards
+                                                <div class="icon-small"><i class="ri-arrow-right-s-line"></i></div>
+                                            </a>
+                                            <div class="mega">
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">PSN</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Gift Card 40 EUR</a></li>
+                                                            <li><a href="#">Gift Card 100 EUR</a></li>
+                                                            <li><a href="#">Gift Card 25 USD</a></li>
+                                                            <li><a href="#">Gift Card 100 USD</a></li>
+                                                            <li><a href="#">Gift Card 20 GBP</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h4><a href="#">Steam</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Gift Card 75 USD</a></li>
+                                                            <li><a href="#">Gift Card 100 TL</a></li>
+                                                            <li><a href="#">Gift Card 300 TL</a></li>
+                                                            <li><a href="#">Gift Card 500 TL</a></li>
+                                                            <li><a href="#">Gift Card 20 EUR</a></li>
+                                                            <li><a href="#">Gift Card 50 EUR</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Xbox Live</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Gift Card 10 GBP</a></li>
+                                                            <li><a href="#">Gift Card 50 GBP</a></li>
+                                                            <li><a href="#">Gift Card 20 EUR</a></li>
+                                                            <li><a href="#">Gift Card 70 EUR</a></li>
+                                                            <li><a href="#">Gift Card 25 USD</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h4><a href="#">Battle.net</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">Blizzard GiftCard 50 USD</a></li>
+                                                            <li><a href="#">Blizzard GiftCard 100 USD</a></li>
+                                                            <li><a href="#">Blizzard GiftCard 60 EUR</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="flexcol">
+                                                    <div class="row">
+                                                        <h4><a href="#">Origin</a></h4>
+                                                        <ul>
+                                                            <li><a href="#">EA Gift Card 15 USD</a></li>
+                                                            <li><a href="#">EA Gift Card 50 USD</a></li>
+                                                            <li><a href="#">EA Gift Card 100 USD</a></li>
+                                                            <li><a href="#">EA Gift Card 20 EUR</a></li>
+                                                            <li><a href="#">EA Gift Card 50 EUR</a></li>
+                                                            <li><a href="#">EA Gift Card 80 EUR</a></li>
+                                                            <li><a href="#">EA Gift Card 100 GBP</a></li>
+                                                            <li><a href="#">EA Gift Card 50 GBP</a></li>
+                                                            <li><a href="#">EA Gift Card 20 GBP</a></li>
+                                                            <li><a href="#">EA Gift Card 200 TL</a></li>
+                                                            <li><a href="#">EA Gift Card 300 TL</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -478,25 +559,13 @@
                                         <li>
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-android-line"></i></div>
-                                                Health & Household
+                                                Video
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <div class="icon-large"><i class="ri-basketball-line"></i></div>
-                                                Home & Kitchen
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <div class="icon-large"><i class="ri-basketball-line"></i></div>
-                                                Bets Seller
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <div class="icon-large"><i class="ri-basketball-line"></i></div>
-                                                Sports
+                                                Tools
                                             </a>
                                         </li>
                                     </ul>
@@ -516,9 +585,9 @@
                 </div>
             </div>
         </header>
-         <!-- End Header Section-->
-         <!--Main Section-->
-         <main>
+        <!-- End Header Section-->
+        <!--Main Section-->
+        <main>
             <div class="slider">
                 <div class="container">
                     <div class="wrapper">
@@ -527,11 +596,11 @@
                                 <div class="swiper-slide">
                                     <div class="item">
                                         <div class="image object-cover">
-                                            <img src="assets/slider/slider1.jpg" alt="slider here">
+                                            <img src="assets/slider/slider0.jpg" alt="slider here">
                                         </div>
                                         <div class="text-content flexcol">
-                                            <h4>Shoes Fashion</h4>
-                                            <h2><span>Come and get it! </span><br><span>Brand New Shoes</span></h2>
+                                            <h4>Windows</h4>
+                                            <h2><span>Come and get it! </span><br><span>Windows 11 Pro</span></h2>
                                             <a href="#" class="primary-button">Shop Now</a>
                                         </div>
                                     </div>
@@ -540,11 +609,11 @@
                                 <div class="swiper-slide">
                                     <div class="item">
                                         <div class="image object-cover">
-                                            <img src="assets/slider/slider1.jpg" alt="slider here">
+                                            <img src="assets/slider/slider01.jpg" alt="slider here">
                                         </div>
                                         <div class="text-content flexcol">
                                             <h4>Quick Offer</h4>
-                                            <h2><span>Fit Your Wardrobe</span><br><span>EXTRA 50% OFF</span></h2>
+                                            <h2><span>Windows 10 Pro</span><br><span>EXTRA 50% OFF</span></h2>
                                             <a href="#" class="primary-button">Shop Now</a>
                                         </div>
                                     </div>
@@ -553,11 +622,35 @@
                                 <div class="swiper-slide">
                                     <div class="item">
                                         <div class="image object-cover">
-                                            <img src="assets/slider/slider2.jpg" alt="slider here">
+                                            <img src="assets/slider/slider02.png" alt="slider here">
                                         </div>
                                         <div class="text-content flexcol">
                                             <h4>Quick Offer</h4>
-                                            <h2><span>Wooden Minimal Safa</span><br><span>WITH LUXURY ITEMS</span></h2>
+                                            <h2><span>Gift Cards</span></h2>
+                                            <a href="#" class="primary-button">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="assets/slider/slider03.jpeg" alt="slider here">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Quick Offer</h4>
+                                            <h2><span>EXTRA 50% OFF</span></h2>
+                                            <a href="#" class="primary-button">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="image object-cover">
+                                            <img src="assets/slider/slider05.jpg" alt="slider here">
+                                        </div>
+                                        <div class="text-content flexcol">
+                                            <h4>Quick Offer</h4>
+                                            <h2><span>EXTRA 50% OFF</span></h2>
                                             <a href="#" class="primary-button">Shop Now</a>
                                         </div>
                                     </div>
@@ -571,25 +664,25 @@
             <!--Here we will put the brands-->
             <div class="brands">
                 <div class="container">
-                    <div class="wrapper flexitem">
+                    <div class="wrapper flexitem" >
                         <div class="item">
                             <a href="#">
-                                <img src="assets/brands/windows.png" alt="">
+                                <img src="assets/brands/Windows_11_logo.svg.png" alt="" style="width:160px;height:50px;">
                             </a>
                         </div>
                         <div class="item">
                             <a href="#">
-                                <img src="assets/brands/PS.png" alt="">
+                                <img src="assets/brands/steam-logo.png" alt="" style="width:160px;height:50px;">
                             </a>
                         </div>
                         <div class="item">
                             <a href="#">
-                                <img src="assets/brands/windows.png" alt="">
+                                <img src="assets/brands/Microsoft_Office-Logo.wine.png" alt="" style="width:160px;height:50px;">
                             </a>
                         </div>
                         <div class="item">
                             <a href="#">
-                                <img src="assets/brands/PS.png" alt="">
+                                <img src="assets/brands/PlayStation.svg.png" alt="" style="width:160px;height:50px;">
                             </a>
                         </div>
                     </div>
@@ -612,10 +705,10 @@
                                         <div class="offer">
                                             <p>Offer Ends at</p>
                                             <ul class="flexcenter">
-                                                <li>1</li>
-                                                <li>15</li>
-                                                <li>27</li>
-                                                <li>60</li>
+                                                <li class="day"></li>
+                                                <li class="hour"></li>
+                                                <li class="minute"></li>
+                                                <li class="second"></li>
                                             </ul>
                                         </div>
                                         <div class="media">
@@ -1352,7 +1445,8 @@
                         <div class="box">
                             <div class="content">
                                 <h3>Join Our Newsletter</h3>
-                                <p>Get E-mail updates about our latest shop and <strong><span>special offers</span></strong></p>
+                                <p>Get E-mail updates about our latest shop and <strong><span>special
+                                            offers</span></strong></p>
                             </div>
                             <form action="" class="search">
                                 <span class="icon-large"><i class="ri-mail-line"></i></span>
@@ -1373,7 +1467,7 @@
                                 <div class="item mini-links">
                                     <h4>Help & Contact</h4>
                                     <ul class="flexcol">
-                                        <li><a href="#">Your Account</a></li>   
+                                        <li><a href="#">Your Account</a></li>
                                         <li><a href="#">Your Orders</a></li>
                                         <li><a href="#">Shipping Rates</a></li>
                                         <li><a href="#">Returns</a></li>
@@ -1387,16 +1481,11 @@
                                 <div class="item mini-links">
                                     <h4>Product Categories</h4>
                                     <ul class="flexcol">
-                                        <li><a href="#">Beauty</a></li>   
-                                        <li><a href="#">Electronic</a></li>
-                                        <li><a href="#">Women's Fashion</a></li>
-                                        <li><a href="#">Men's Fashion</a></li>
-                                        <li><a href="#">Girl's Fashion</a></li>
-                                        <li><a href="#">Boy's Fashion</a></li>
-                                        <li><a href="#">Health & Household</a></li>
-                                        <li><a href="#">Home & Kitchen</a></li>
-                                        <li><a href="#">Pet Supplies</a></li>   
-                                        <li><a href="#">Sports</a></li>   
+                                        <li><a href="#">Tools</a></li>
+                                        <li><a href="#">Products Key</a></li>
+                                        <li><a href="#">Operating System</a></li>
+                                        <li><a href="#">Software</a></li>
+                                        <li><a href="#">Gift Card</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1404,7 +1493,7 @@
                                 <div class="item mini-links">
                                     <h4>Payment Info</h4>
                                     <ul class="flexcol">
-                                        <li><a href="#">Bussiness Card</a></li>   
+                                        <li><a href="#">Bussiness Card</a></li>
                                         <li><a href="#">Shop with Points</a></li>
                                         <li><a href="#">Reload Your Balance</a></li>
                                         <li><a href="#">Paypal</a></li>
@@ -1415,7 +1504,7 @@
                                 <div class="item mini-links">
                                     <h4>About Us</h4>
                                     <ul class="flexcol">
-                                        <li><a href="#">Company info</a></li>   
+                                        <li><a href="#">Company info</a></li>
                                         <li><a href="#">News</a></li>
                                         <li><a href="#">Investors</a></li>
                                         <li><a href="#">Careers</a></li>
@@ -1484,11 +1573,11 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#0">
+                                <a href="cart.html" class="cart-trigger">
                                     <i class="ri-shopping-cart-line"></i>
                                     <span>Cart</span>
                                     <div class="fly-item">
-                                        <span class="item-number">0</span>
+                                        <span class="item-number">5</span>
                                     </div>
                                 </a>
                             </li>
@@ -1502,7 +1591,7 @@
         <div class="search-bottom desktop-hide">
             <div class="container">
                 <div class="wrapper">
-                    
+
                     <form action="" class="search">
                         <a href="#" class="t-close search-close flexcenter"><i class="ri-close-line"></i></a>
                         <span class="icon-large"><i class="ri-search-line"></i></span>
@@ -1516,9 +1605,30 @@
 
         <div class="overlay"></div>
 
-
-   </div>
+        <div id="modal" class="modal">
+            <div class="content flexcol">
+                <div class="image object-cover">
+                    <img src="assets/products/cover.png" alt="">
+                </div>
+                <h2>Get the lastest deals and coupons</h2>
+                <p class="mobile-hide">Windows 10 & Office 2019 Professional Plus</p>
+                <form action="" class="search">
+                    <span class="icon-large"><i class="ri-mail-line"></i></span>
+                    <input type="mail" placeholder="Your email address">
+                    <button>Subscribe</button>
+                </form>
+                <a href="#" class="mini-text">Do not show me again</a>
+                <a href="#" class="t-close modalclose flexcenter">
+                    <i class="ri-close-line"></i>
+                </a>
+            </div>
+        </div>
+    </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script> <!-- -->
+
+
+
 </body>
+
 </html>

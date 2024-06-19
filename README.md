@@ -7,7 +7,7 @@
     <div class="image-wrapper">
         <div class="image-container">
             <h1>Featured Products</h1>
-            <img src="assets/screenshot/Home(1).png" alt="Featured Products" class="product-image">
+            <img src="assets/screenshot/Home.png" alt="Featured Products" class="product-image">
             <div class="image-count"></div>
         </div>
         <div class="image-container">

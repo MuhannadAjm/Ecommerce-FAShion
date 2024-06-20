@@ -21,7 +21,7 @@
         </div>
         <div class="image-container">
             <h1>Category</h1>
-            <img src="assets/screenshot/Category(1)" alt="Featured Products" class="product-image">
+            <img src="assets/screenshot/Category(1).png" alt="Trending Products" class="product-image">
             <div class="image-count"></div>
         </div>
     </div>

@@ -24,6 +24,16 @@
             <img src="assets/screenshot/Category(1).png" alt="Trending Products" class="product-image">
             <div class="image-count"></div>
         </div>
+        <div class="image-container">
+            <h1>Wishlist</h1>
+            <img src="assets/screenshot/Wishlist(1).png" alt="Trending Products" class="product-image">
+            <div class="image-count"></div>
+        </div>
+             <div class="image-container">
+            <h1>Cart</h1>
+            <img src="assets/screenshot/Cart(1).png" alt="Trending Products" class="product-image">
+            <div class="image-count"></div>
+        </div>
     </div>
 </body>
 </html>

@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- 
-</head>
 <body>
     <div class="image-wrapper">
         <div class="image-container">
